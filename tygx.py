@@ -19,7 +19,7 @@ API_HASH = '2459555ba95421148c682e2dc3031bb6'
 STRING_SESSION = '1BVtsOJYBuxvWKzU2s5RM2JAvD1OUh0Ks20deYaWNpehYUVvPjAC-As-8DM9yt5_DdsTMOcZ5R-4CL-T6foBVPwJ3pmWlaqW_iBkfChzidstU2OVChHWwvhMEURKBACRJDZT2U6Jr7f-DtbjqQnEK63_OUFAQHpSjNkCVdkLeq9WNCJtLr9zyC660qk5xzPWcjMMREihQGkV6irPtiyX6xgeIjBDqToq4qUcGCir_m4NcZ0cbfHnoeDcYNz9FJGlHaXvBRamE75sQ2PCdGCuUE0-JuW5m6VMMzXZHuUs_R4vPYhUm61P_IsJg4yCljK1txz_rl6TsYqkcofPvhPNv1zm895UUloI='   # 从https://tgs.252035.xyz/获取，把V1填入 ,必填项！！！！！！！！！！！！
 
 # 自定义monitor_state和sent_links的保存路径（如果为空则保存在脚本所在目录）
-SAVE_PATH = "/storage/emulated/0/天翼"  # 示例: "/path/to/save/directory"
+SAVE_PATH = ""  # 示例: "/path/to/save/directory"
 
 # 频道配置（逗号隔开）
 CHANNEL_URLS = [
@@ -945,4 +945,5 @@ if __name__ == '__main__':
     except KeyboardInterrupt:
 
         print("\n监控已停止")
+
 
