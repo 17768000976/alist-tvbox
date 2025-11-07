@@ -25,9 +25,6 @@ SAVE_PATH = "/storage/emulated/0/天翼"  # 示例: "/path/to/save/directory"
 CHANNEL_URLS = [
     'https://t.me/tianyifc','https://t.me/yp123pan','https://t.me/lubaoty','https://t.me/bh9_527'
 ]
-]
-]
-]
 
 MONITOR_INTERVAL = 3600  # 循环周期3600秒
 DEBUG = False  # 调试模式开关
@@ -948,3 +945,4 @@ if __name__ == '__main__':
     except KeyboardInterrupt:
 
         print("\n监控已停止")
+
