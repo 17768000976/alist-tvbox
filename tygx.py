@@ -23,7 +23,7 @@ SAVE_PATH = "/storage/emulated/0/天翼"  # 示例: "/path/to/save/directory"
 
 # 频道配置（逗号隔开）
 CHANNEL_URLS = [
-    'https://t.me/tianyifc','https://t.me/yp123pan','https://t.me/lubaoty','https://t.me/bh9_527',
+    'https://t.me/tianyifc','https://t.me/yp123pan','https://t.me/lubaoty','https://t.me/bh9_527'
 ]
 ]
 ]
@@ -946,4 +946,5 @@ if __name__ == '__main__':
     try:
         asyncio.run(continuous_monitoring())
     except KeyboardInterrupt:
+
         print("\n监控已停止")
